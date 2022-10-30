@@ -1,0 +1,19 @@
+.row {
+    background-color: #a1b5cb;
+    padding: 20px;
+    margin: 0em;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 25px;
+    font-family: roboto;
+}
+
+#html, #css, #js, #en, #tw, #mysql {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}

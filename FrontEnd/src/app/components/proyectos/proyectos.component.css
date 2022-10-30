@@ -1,0 +1,12 @@
+.row {
+    margin: 0em;
+    overflow-x: hidden;
+}
+
+div {
+    background-color: #a1b5cb;
+}
+
+h1, h2, p {
+    text-align: center;
+}
