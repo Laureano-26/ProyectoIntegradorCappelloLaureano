@@ -1,5 +1,5 @@
 .row {
-    margin: 0em;
+    margin: 0;
     overflow-x: hidden;
 }
 
@@ -15,6 +15,7 @@
 
 #logoAP {
     width: 150px;
+    z-index: 50;
 }
 
 img {
@@ -29,6 +30,9 @@ img {
 @media (max-width: 575px) {
     .container {
         flex-direction: column;
+        width: 100%;
+        background-color: goldenrod;
+        padding-bottom: 1.5em;
     }
     .redes {
         display: flex;
@@ -37,5 +41,23 @@ img {
     }
     .redes img{
         margin: 0.5em;
+    }
+    #logoAP {
+        z-index: 50;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        position: fixed;
+        width: 100%;
+        background-color: goldenrod;
+    }
+    #logoAP {
+        z-index: 50;
+    }
+    .redes a, .redes button {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 }

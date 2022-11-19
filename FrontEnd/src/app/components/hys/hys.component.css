@@ -3,17 +3,22 @@
     padding: 20px;
     margin: 0em;
     overflow-x: hidden;
+    width: 97%;
+    margin-left: 1.5%;
+    border-radius: 25px;
+    border: goldenrod solid 5px;
 }
 
 p {
     font-size: 25px;
-    font-family: roboto;
+    font-family: 'roboto';
 }
 
-#html, #css, #js, #en, #tw, #mysql {
-    margin-top: 50px;
+#html, #css, #bootstrap, #js, #en, #tw, #mysql, #ts, #angular, #java, #git, #github {
+    margin-top: 10px;
 }
 
 h1 {
     text-align: center;
+    font-family: 'roboto';
 }

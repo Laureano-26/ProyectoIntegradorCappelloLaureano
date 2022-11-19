@@ -2,12 +2,21 @@
     margin: 0em;
     overflow-x: hidden;
     background-color: #a1b5cb;
+    padding-top: 25px;
+    border-top: 5px solid goldenrod;
 }
 
 footer {
-    color: #fefefe;
+    
     font-size: 14px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 0.4em;
+    font-family: 'sans-serif';
+    color: rgb(66, 66, 66);
 }

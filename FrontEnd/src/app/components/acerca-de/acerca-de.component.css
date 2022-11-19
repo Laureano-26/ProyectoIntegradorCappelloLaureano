@@ -1,37 +1,72 @@
+p {
+  color: black;
+  font-family: 'sans-serif';
+  font-size:large;
+}
+
 div {
     background-color: #a1b5cb;
     text-align: center;
+    border-radius: 20px;
 }
 
 .row {
-  margin: 0em;
+  padding: 3%;
   overflow-x: hidden;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  border: goldenrod solid 5px;
 }
 
 /* estilo fotoPerfil */
 @media (min-width: 576px) {
   #fotoPerfil {
-    position: absolute;
-    width: 15%;
+    width: 200px;
     border-radius: 100%;
     box-shadow: 3px 3px 3px grey;
-    left: 3%;
-    top: 600px;
+    align-items: center;
+    border: goldenrod solid 3px;
+  }
+  #foto {
+    display: grid;
+    place-content: center;
+  }
+  #nombre {
+    font-weight: bold;
   }
 }
+
 @media (max-width: 575px) {
     #fotoPerfil {
-      position: absolute;
-      width: 30%;
+      width: 160px;
       border-radius: 100%;
       box-shadow: 3px 3px 3px grey;
-      left: 33%;
-      top: 1000px;
+      margin-bottom: 5px;
+    }
+    #foto {
+      display: flex;
+      justify-content: center;
+      padding-top: 4%;
+    }
+    #nombre {
+      font-weight: bold; 
+    }
+    .qatar {
+      padding-top: 1em;
     }
   }
 
-/* etiqueta nombre */
-#nombre {
-  font-weight: bold;
-  margin-top: 30%;
+#acerca {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.qatar {
+  display: grid;
+  place-content: center;
+}
+
+#goat {
+  padding-left: 5%;
+  padding-right: 5%;
 }

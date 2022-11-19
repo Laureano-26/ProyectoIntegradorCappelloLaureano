@@ -2,6 +2,10 @@
     padding: 20px;
     margin: 0em;
     overflow-x: hidden;
+    width: 97%;
+    margin-left: 1.5%;
+    border-radius: 25px;
+    border: goldenrod solid 5px;
 }
 
 div {
@@ -10,4 +14,29 @@ div {
 
 h1, h3 {
     display: inline;
+}
+
+p, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'roboto', 'serif';-top: 2px;
+}
+
+#tec {
+    font-size: large;
+}
+
+.messi {
+    text-align: center;
+}
+
+span {
+    font-size: large;
+}
+
+h4 {
+    margin-top: 5%;
 }
